@@ -1,0 +1,56 @@
+.profile {
+  font-family: "Lato", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .profile-logo-box {
+    margin-top: 25px;
+
+    .profile-logo {
+      width: 130px;
+    }
+
+    // .profile-box {
+    //    max-width: 350px;
+    //    border: 1px solid;
+    //    border-color: black;
+  }
+
+  .getIdea {
+    margin: 7px;
+    width: 400px;
+    height: 75px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 40px;
+    font-size: 2em;
+    font-family: "Lato", sans-serif;
+    // border: solid lightgray 2px;
+    outline: none;
+    text-align: center;
+  }
+
+  .comBox {
+    box-shadow: 0.6px 0.8px 10px 5px rgba(221, 221, 221, 0.7);
+    height: 100%;
+    width: 300px;
+    right: 1px;
+    position: fixed;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+   }
+   .datepic {
+     height: 55%;
+     width: 25%;
+     display: flex;
+     margin-block-start: 20px;
+    margin-block-end: 90px;
+   }
+  }
+
