@@ -17,6 +17,9 @@
     "simple-react-components": "^1.0.1",
     "video-react": "^0.14.1"
   },
+  "optionalDependencies": {
+    "fsevents": "*"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
